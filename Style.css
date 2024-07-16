@@ -1,0 +1,1206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(246, 243, 243, 0.826);}
+ 
+/* NAVIGATION 1 */
+.nav{
+    height: 50px;
+    background-color: rgb(57, 29, 171);
+}
+
+.head-1 img{
+    margin-right: 1rem;
+    width: 20px;
+}
+
+.head{
+    padding-top: 1rem;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.head .head-2{
+    padding-top: 5px;
+    margin-left: 1rem;
+}
+
+.head-2 a{
+    color: white;
+}
+
+.head-2 a:hover{
+    text-decoration: none;
+}
+
+
+
+/* NAVIGATION 2 */
+.nav2{
+    background-color: rgb(246, 243, 243);
+    border: 1px solid #c8c8c8;
+    height: 70px;
+}
+
+.nav
+
+.logo{
+    margin-left: 0;
+}
+
+.logo img{
+    margin-top: 9px;
+    margin-left: 2rem;
+}
+
+.nav2 nav{
+    padding-top: 17px;
+    padding-right: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+menu ul{
+    cursor: pointer;
+    font-style: italic;
+    padding-top: 9px;
+    margin-left: 6rem;
+    font-weight: bold;
+    display: flex;
+    gap: 11px;
+    font-size: small;
+    list-style: none;
+    color: black;
+}
+
+menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+menu ul li a:hover{
+    border-bottom: 3px solid rgb(163, 18, 18);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.git a{
+    background-color: black;
+    border: 7px solid black;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    padding-left: 19px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.git img{
+    width: 20px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 270px;
+    z-index: 999;
+    background-color: white;
+    backdrop-filter: blur(1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    display: none;
+}
+
+.sidebar li{
+    padding-bottom: .5rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    border-bottom-right-radius: 1px;
+}
+.sidebar li{
+    font-style: italic;
+    width: 100%;
+
+}
+
+.sidebar a img{
+    margin-right: 1rem;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+
+
+.challenge{   
+    background-color: rgb(246, 243, 243);
+}
+
+.challenge .text-2 h5{
+    width: 180px;
+    height: 50px;
+    margin-left: 2rem;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.text-2{
+    height: 50px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.text-2 h5{
+    padding-top: 1rem;
+    padding-left: 32px;
+}
+
+/* BODY 1 */
+.all-body{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    height: 450px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgba(255, 253, 253, 0.987);
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.body-1{
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.body-1 ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.body-1 ul li{
+    font-weight: 600;
+    color: rgb(37, 37, 120);
+}
+
+.body-1 ul button{
+    border: none;
+    width: 50px;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 0;
+    color: rgb(37, 37, 120);
+    font-weight: 600;
+}
+
+.newbie{
+    width: 5rem;
+    height: 22px;
+    margin-left: 10rem;
+    border-radius: 2px;
+    font-size: x-small;
+    font-weight: 700;
+    padding-top: 3.5px;
+    border: 2px solid cadetblue;
+}
+
+.newbie span{
+    border: 4px solid cadetblue;
+    color: white;
+    height: 10px;
+    background-color: cadetblue;
+}
+
+.heading h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.heading p{
+    color: rgb(94, 92, 92);
+    margin-top: 2rem;
+}
+
+.challenge-button button{
+    margin-top: 3rem;
+    border-radius: 25px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-weight: 800;
+    background-color: red;
+    color: white;
+    font-style: italic;
+}
+
+.challenge-button button:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.body-2{
+    width: 50%;
+}
+
+.body-2 img{
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 2rem;
+}
+
+.button-desk button{
+    margin: 2rem 7px;
+    background-color: rgba(128, 128, 128, 0.626);
+    color: rgb(64, 63, 63);
+    font-style: italic;
+    border: none;
+    height: 25px;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.button-desk button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+.button-desk span{
+    margin-left: 2rem;
+}
+
+.button-desk span button{
+    background-color: rgb(48, 48, 145);
+    color: white;
+    font-style: italic;
+    border: none;
+    height: 25px;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.button-desk span button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+
+/* BODY 2 */
+
+
+.body-brief{
+    margin-right: 1rem;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 90%;
+    display: flex;
+
+}
+
+.brief{
+    padding: 2rem;
+    width: 150%;
+    background-color: white;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.brief .text img{
+    width: 30px;
+}
+
+.brief text p{
+    margin-top: 2rem;
+}
+
+.brief .text p{
+    margin-top: 2rem;
+    color: black;
+}
+
+.brief .text p a{
+    color: black;
+}
+
+.Assest .asset-text{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 110%;
+    background-color: white;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.asset-text h2 img{
+    width: 30px;
+}
+.asset-text h2{
+    margin-bottom: 2rem;
+}
+
+.asset-text p{
+    margin-top: 1rem;
+    width: 400px;
+}
+
+.asset-text img{
+    width: 13px;
+    margin-right: 10px;
+}
+
+.idea-text{
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    width: 110%;
+    height: 132px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.idea-text img{
+    width: 30px;
+    margin-right: .5rem;
+}
+.idea-text ol{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.FAQ{
+    margin-top: 4rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.faq-question{
+    width: 550px;
+    height: 60px;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    margin-left: 21rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.faq-question .text{
+    padding: 1.5rem;
+}
+
+.faq-question img{
+    width: 20px;
+    margin-right: 2rem;
+}
+
+
+
+.faq-questions{
+    width: 550px;
+    height: 90px;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    margin-left: 21rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.faq-questions .text{
+    padding: 1.5rem;
+}
+
+.faq-questions img{
+    width: 20px;
+    margin-right: 2rem;
+}
+
+.discord{
+    margin-top: 6rem;
+    width: 1100px;
+    border-radius: 10px;
+    margin-left: 2rem;
+    height: 37rem;
+    background-color: rgb(5, 54, 123);
+    padding: 3rem;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.discord img{
+    width: 11rem;
+}
+
+.discord h4{
+    margin-top: 3rem;
+    color: white;
+}
+
+.discord h1{
+    margin-top: 3rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5rem;
+    padding-top: 1rem;
+}
+
+.discord a button{
+    background-color: white;
+    color: rgb(27, 102, 208);
+    border: none;
+    border-radius: 25px;
+    height: 3rem;
+    cursor: pointer;
+    width: 12rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.discord a button:hover{
+    background-color: blanchedalmond;
+    opacity: 80%;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer{
+    background-color: white;
+    margin-top: 3rem;
+    width: 100%;
+    height: 30rem;
+}
+
+.frontend{
+    padding: 2rem;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+
+.left-logos img{
+    width: 50px;
+    padding: .5rem;
+}
+
+.update-all{
+    justify-content: space-between;
+    display: flex;
+    padding-right: 2rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    height: 18rem;
+    margin-top: 1.5rem;
+}
+
+.upto-date{
+    padding-left: 2rem;
+    width: 40%;
+}
+
+.upto-date h2{
+    font-weight: lighter;
+    color: rgb(86, 86, 167);
+}
+
+.upto-date p{
+    margin-top: 2rem;
+}
+
+.upto-date input{
+    height: 40px;
+    margin-top: 2rem;
+    width: 240px;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.upto-date p{
+    width: 285px;
+    font-weight: lighter;
+}
+
+.upto-date #subscribe{
+    margin-left: 1rem;
+    width: 140px;
+    font-weight: bold;
+    height: 40px;
+    font-style: italic;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background-color: rgb(220, 28, 28);
+}
+
+.upto-date #subscribe:hover{
+    background-color: rgb(157, 13, 13);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.foot-5 ul{
+    margin-top: 2rem;
+    color: rgb(132, 131, 131);
+    list-style: none;
+}
+
+.foot-5 ul li a{
+    text-decoration: none;
+    color: rgb(132, 131, 131);
+}
+
+.all-foot{
+    display: flex;
+    gap: 1rem;
+}
+
+.all-foot2{
+    display: flex;
+    gap: 1rem;
+}
+
+.last-foot{
+    color: rgb(132, 131, 131);
+    margin: 1rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.conclude-2 a{
+    padding: 1rem;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(132, 131, 131);
+}
+
+.conclude{
+    display: flex;
+    gap: 27rem;
+}
+
+.list ul{
+    list-style: none;
+    gap: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.list ul a{
+    text-decoration: none;
+    color: rgb(132, 131, 131);
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDA QUERY */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 450px){
+    
+    .nav{
+        width: 100%;
+    }
+    .head{
+        padding-top: .5rem;
+        display: block;
+        padding-left: 3rem;
+    }
+
+    .head-1 img{
+        width: 10px;
+    }
+
+    .head-1 h4{
+        margin-left: 2rem;
+        font-size: small;
+
+    }
+
+    .head-2 h4{
+        margin-left: 3rem;
+        font-size: small;
+    }
+
+    .nav2{
+        width: 100%;
+    }
+
+
+    .logo{
+        display: none;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    menu ul li{
+        display: none;
+    }
+
+    .git{
+        display: none;
+    }
+
+    .hamburger{
+        margin-left: 14rem;
+    }
+
+    .nav2{
+        height: 48px;
+    }
+
+
+    .all-body{
+        display: block;
+        gap: 1rem;
+        height: 280px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 90%;
+        margin-right: 1rem;
+        background-color: rgba(255, 253, 253, 0.987);
+        border-radius: 10px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+    
+    .body-1{
+        width: 110%;
+        margin-top: .5rem;
+    }
+    
+    .body-1 ul{
+        list-style: none;
+        gap: 1rem;
+        font-size: x-small;
+    }
+    
+    .body-1 ul li{
+        font-weight: 600;
+        color: rgb(37, 37, 120);
+    }
+    
+    .body-1 ul button{
+        width: 30px;
+        color: rgb(37, 37, 120);
+        font-weight: 0;
+    }
+    
+    .newbie{
+        height: 22px;
+        margin-left: .50rem;
+        border-radius: 2px;
+        font-size: xx-small;
+        font-weight: 0;
+        padding-top: 3.5px;
+        border: 2px solid cadetblue;
+    }
+    
+    .newbie span{
+        border: 4px solid cadetblue;
+        color: white;
+        height: 10px;
+        background-color: cadetblue;
+    }
+    
+    .heading h2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 2rem;
+        font-weight: 500;
+        font-size: small;
+    }
+    
+    .heading p{
+        font-size: small;
+        color: rgb(94, 92, 92);
+        margin-top: 1rem;
+    }
+    
+    .challenge-button button{
+        margin-top: 1rem;
+        border-radius: 23px;
+        border: none;
+        height: 30px;
+        width: 150px;
+        font-weight: 700;
+        font-size: small;
+        background-color: red;
+        color: white;
+        font-style: italic;
+    }
+    
+    .challenge-button button:hover{
+        background-color: brown;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    
+    .body-2{
+        width: 140%;
+    }
+    
+    .body-2 img{
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 6rem;
+        margin-left: 3.5rem;
+    }
+    
+    .button-desk{
+        display: flex;
+    }
+
+    .button-desk button{
+        margin-left: 2.5rem;
+        background-color: rgba(128, 128, 128, 0.626);
+        color: rgb(64, 63, 63);
+        font-style: italic;
+        border: none;
+        height: 20px;
+        width: 100px;
+        font-size: xx-small;
+        border-radius: 10px;
+    }
+    
+    .button-desk button:hover{
+        opacity: 80%;
+        cursor: pointer;
+    }
+    
+    
+    .button-desk span{
+        margin-left: 1px;
+    }
+    
+    .button-desk span button{
+        background-color: rgb(48, 48, 145);
+        color: white;
+        font-style: italic;
+        border: none;
+        height: 20px;
+        width: 110px;
+        font-size: xx-small;
+        border-radius: 10px;
+    }
+    
+    .button-desk span button:hover{
+        opacity: 80%;
+        cursor: pointer;
+    }
+    
+    
+    
+    /* BODY 2 */
+    
+    
+    .body-brief{
+        margin-right: 6rem;
+        gap: 1rem;
+        margin-top: 16rem;
+        margin-left: 1rem;
+        width: 100%;
+        display: block;
+    
+    }
+    
+    .brief{
+        padding: 1rem;
+        width: 90%;
+        font-size: x-small;
+        background-color: white;
+        height: 300px;
+        border-radius: 10px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+    
+    .brief .text img{
+        width: 20px;
+    }
+    
+    
+    .brief .text p{
+        margin-top: 1rem;
+        color: black;
+    }
+    
+    .brief .text p a{
+        color: black;
+    }
+        
+    .Assest .asset-text{
+        margin-top: 2rem;
+        padding-top: .5rem;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        width: 89%;
+        background-color: white;
+        height: 260px;
+        border-radius: 10px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+    
+    .asset-text h2 img{
+        width: 30px;
+    }
+    .asset-text h2{
+        margin-bottom: 2rem;
+    }
+
+    .asset-text h2{
+        font-size: small;
+    }
+    
+    .asset-text p{
+        width: 240px;
+        font-size: x-small;
+    }
+    
+    .asset-text img{
+        width: 13px;
+        margin-right: 10px;
+    }
+    
+    
+    .idea-text{
+        margin-top: 1rem;
+        padding: 1rem;
+        padding-top: 1rem;
+        width: 89%;
+        height: 110px;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+
+    .idea-text h2{
+        font-size: small;
+    }
+    
+    .idea-text img{
+        width: 20px;
+        margin-right: .5rem;
+    }
+    .idea-text ol{
+        font-size: x-small;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }    
+    
+    .FAQ{
+        margin-top: 2rem;
+    }
+
+    .FAQ h4{
+        justify-content: flex-start;
+    }
+    
+    .faq-question{
+        width: 250px;
+        height: 50px;
+        display: flex;
+        margin-top: .5rem;
+        justify-content: space-between;
+        margin-left: 5rem;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+    
+    .faq-question .text{
+        padding: 1rem;
+        font-size: x-small;
+    }
+    
+    .faq-question img{
+        width: 20px;
+        margin-right: 2rem;
+    }
+    
+    
+    
+    .faq-questions{
+        width: 250px;
+        height: 70px;
+        display: flex;
+        margin-top: .5rem;
+        justify-content: space-between;
+        margin-left: 5rem;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+    
+    .faq-questions .text{
+        padding: 1rem;
+        font-size: x-small;
+    }
+    
+    .faq-questions img{
+        width: 20px;
+        margin-right: rem;
+    }
+    
+    .discord{
+        margin-top: 1rem;
+        width: 87%;
+        border-radius: 10px;
+        margin-left: 2rem;
+        height: 20rem;
+        background-color: rgb(5, 54, 123);
+        padding: 1rem;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    
+    .discord img{
+        width: 6rem;
+    }
+    
+    .discord h4{
+        margin-top: 1rem;
+        width: 200px;
+        font-size: x-small;
+        color: white;
+        margin-left: .5rem;
+    }
+    
+    .discord h1{
+        margin-top: 1rem;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 2rem;
+        padding-top: 1rem;
+        font-size: small;
+    }
+    
+    .discord a button{
+        background-color: white;
+        color: rgb(27, 102, 208);
+        border: none;
+        border-radius: 25px;
+        height: 2rem;
+        cursor: pointer;
+        width: 10rem;
+        font-size: small;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .discord a button:hover{
+        background-color: blanchedalmond;
+        opacity: 80%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .footer{
+        background-color: white;
+        margin-top: 3rem;
+        width: 100%;
+        height: 32rem;
+    }
+    
+    .frontend{
+        padding: 2rem;
+        display: block;
+        width: auto;
+        justify-content: space-between;
+    }
+    
+    .front-logo{
+        margin-left: 4rem;
+    }
+    .left-logos img{
+        width: 50px;
+        padding-left: 1rem;
+    }
+
+    .left-logos{
+        margin-left: 3rem;
+    }
+    
+    .update-all{
+        display: block;
+        padding-right: 1rem;
+        border-bottom: 1px solid rgb(200, 200, 200);
+        height: 20rem;
+        margin-top: 1px;
+        margin-left: 2rem;
+    }
+    
+    .upto-date{
+        padding-left: 1rem;
+        width: 60%;
+    }
+    
+    .upto-date h2{
+        text-align: center;
+        margin-left: 5rem;
+        font-weight: lighter;
+        font-size: small;
+        color: rgb(86, 86, 167);
+    }
+    
+    .upto-date p{
+        text-align: center;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        font-size: x-small;
+    }
+    
+    .upto-date input{
+        height: 20px;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        width: 235px;
+        font-size: small;
+        border: 1px solid rgb(200, 200, 200);
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    .upto-date p{
+        width: 285px;
+        font-weight: lighter;
+    }
+    
+    .upto-date #subscribe{
+        height: 30px;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        width: 235px;
+        font-size: small;
+        font-style: italic;
+        border-radius: 18px;
+        border: none;
+        color: white;
+        background-color: rgb(220, 28, 28);
+    }
+    
+    #subscribe:hover{
+        background-color: rgb(157, 13, 13);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .foot-5{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    
+
+    .all-foot{
+        display: flex;
+        gap: 1rem;
+        margin-left: 3rem;
+        font-size: x-small;
+    }
+    
+    .all-foot2{
+        display: flex;
+        gap: 4rem;
+        margin-left: 3rem;
+        font-size: x-small;
+    }
+    
+
+
+
+
+    .foot-5 ul{
+        margin-top: .5rem;
+        color: rgb(132, 131, 131);
+        list-style: none;
+    }
+    
+    .foot-5 ul li a{
+        text-decoration: none;
+        color: rgb(132, 131, 131);
+    }
+    
+    .last-foot{
+        color: rgb(132, 131, 131);
+        display: block;
+    }
+    
+    .conclude h4{
+        font-size: x-small;
+        margin-left: 8rem;
+    }
+
+    .conclude{
+        display: block;
+    }
+    
+    .list ul{
+        list-style: none;
+        gap: 1rem;
+        font-size: xx-small;
+        display: flex;
+        margin-left: 6rem;
+        flex-direction: row;
+    }
+    
+    .list ul a{
+        text-decoration: none;
+        color: rgb(132, 131, 131);
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
